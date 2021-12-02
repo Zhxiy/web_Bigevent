@@ -23,8 +23,15 @@ border-radius: 50%;
     background-color: #009688;
     position: absolute;
     top: 10px;
+    left: -28px;
     border-radius: 50%;
     line-height: 40px;
     text-align: center;
     font-size: 25px;
+}
+.userinfo>.text-a {
+    left: 32px;
+}
+.welcome {
+    margin-left: 40px;
 }
