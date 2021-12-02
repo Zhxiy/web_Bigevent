@@ -53,6 +53,7 @@ jQuery(function () {
                 return layer.msg('登录失败')
             }
             layer.msg('登录成功')
+            localStorage.setItem('token', res.token)
             window.location.href = 'index.html'
         })
     })
